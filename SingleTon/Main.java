@@ -4,6 +4,7 @@ public class Main
 	{
 		SingletonDemo s1=SingletonDemo.singletonDemo;//枚举类单例超级简单
 		SingletonDemo s2=SingletonDemo.singletonDemo;
+		System.out.println(s1 == s2);//枚举类型判断两者地址是否相等
 	
 		SingletonDemo1 s3=SingletonDemo1.getInstance();//类加载的时候进行初始化
 		SingletonDemo1 s4=SingletonDemo1.getInstance();
