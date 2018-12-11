@@ -1,7 +1,5 @@
-package prototype;
-
 public interface Product extends Cloneable {
-	public abstract void eat(String s);
+	public abstract void cost();
 
 	public abstract Product createClone();
 

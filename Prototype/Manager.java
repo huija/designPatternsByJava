@@ -1,9 +1,7 @@
-package prototype;
-
 import java.util.HashMap;
 
 public class Manager {
-	private HashMap showcase = new HashMap();
+	private HashMap<String, Product> showcase = new HashMap<String, Product>();
 	
 	public void register(String name,Product product) {
 		showcase.put(name, product);
