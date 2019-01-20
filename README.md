@@ -18,7 +18,7 @@ UML作图工具下载地址:http://staruml.io/
 
 [五:SingleTon(单例)模式—-只有一个实例](https://huija.github.io/2017/11/12/singleton-design-pattern/)  
 [六:Prototype(原型)模式—-通过复制生成实例](https://huija.github.io/2018/12/20/prototype-design-pattern/)  
-七:Builder(构建者)模式—-组装复杂实例  
+[七:Builder(构建者)模式—-组装复杂实例](https://huija.github.io/2019/01/08/builder-design-pattern/)  
 八:Abstract Factory(抽象工厂)模式—-将零件组装成产品
 >分开考虑
 
