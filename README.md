@@ -1,11 +1,16 @@
 >我的设计模式学习,基本来自于书籍:<<图解设计模式>>–[日]结城浩 著  
 也会参照其他书籍如:<<设计模式之禅>>–秦小波 著  
 
-因为代码有中文注释,所以编译的时候:javac -encoding UTF-8 *.java    
+因为代码有中文注释,所以编译的时候:javac -encoding UTF-8 Main.java​,
+
+> 其余使用到的类会被自动的编译.  个别有子文件夹的设计模式, 必须在根目录(Main.java所在目录)进行编译
+
 UML作图工具下载地址:http://staruml.io/  
+
 ## 23种模式简介
 这边我分类用的是这本书的目录分类,将23种设计模式分成了如下10种.  
 还有很多书将其分成三类:创建型+结构型+行为型.这两种并不冲突,学习时按个人喜好即可.
+
 >入门  
 
 [一:Iterator(迭代器)模式—-一个一个遍历](https://huija.github.io/2017/10/06/iterator-design-pattern/)  
@@ -19,7 +24,8 @@ UML作图工具下载地址:http://staruml.io/
 [五:SingleTon(单例)模式—-只有一个实例](https://huija.github.io/2017/11/12/singleton-design-pattern/)  
 [六:Prototype(原型)模式—-通过复制生成实例](https://huija.github.io/2018/12/20/prototype-design-pattern/)  
 [七:Builder(构建者)模式—-组装复杂实例](https://huija.github.io/2019/01/08/builder-design-pattern/)  
-八:Abstract Factory(抽象工厂)模式—-将零件组装成产品
+[八:Abstract Factory(抽象工厂)模式—-将零件组装成产品](https://huija.github.io/2019/02/23/abfactory-design-pattern/)
+
 >分开考虑
 
 九:Bridge(桥接)模式—-类的功能与实现分离  
