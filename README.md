@@ -29,7 +29,8 @@ UML作图工具下载地址:http://staruml.io/
 >分开考虑
 
 [九:Bridge(桥接)模式—-类的功能与实现分离](https://huija.github.io/2019/02/24/bridge-design-pattern/)  
-十:Strategy(策略)模式—-整体的替换算法
+[十:Strategy(策略)模式—-整体的替换算法](https://huija.github.io/2019/03/23/strategy-design-pattern/)
+
 >一致性
 
 十一:Composite(组合)模式—-容器和内容一致性  
