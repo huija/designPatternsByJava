@@ -34,7 +34,7 @@ UML作图工具下载地址:http://staruml.io/
 >一致性
 
 [十一:Composite(组合)模式—-容器和内容一致性](https://huija.github.io/2019/03/28/composite-design-pattern/)  
-十二:Decorator(装饰)模式—-装饰边框与被装饰物的一致性
+[十二:Decorator(装饰)模式—-装饰边框与被装饰物的一致性](https://huija.github.io/2019/03/29/decorator-design-pattern)
 
 >访问数据结构
 
