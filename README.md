@@ -38,7 +38,7 @@ UML作图工具下载地址:http://staruml.io/
 
 >访问数据结构
 
-十三:Visitor(访问者)模式—-访问数据结构并处理  
+[十三:Visitor(访问者)模式—-访问数据结构并处理](https://huija.github.io/2019/03/30/visitor-design-pattern/)  
 十四:Chain of Responsibility(责任链)模式—-推卸责任
 >简单化
 
