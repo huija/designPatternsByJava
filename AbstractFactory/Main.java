@@ -9,8 +9,6 @@ public class Main {
             System.out.println("Example 2: java Main factory.TableFactory");
             System.exit(0);
         }
-        new ListFactory();//只是为了javac Main.java的时候编译ListFactory
-        new TableFactory();//同上
         // 调用指定的factory
         Factory factory = Factory.getFactory(args[0]);
         // 创建Links

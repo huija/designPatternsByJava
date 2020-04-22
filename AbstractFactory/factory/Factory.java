@@ -7,13 +7,16 @@ public abstract class Factory {
     // 根据类名任务下发给具体的Factory
     public static Factory getFactory(String classname) {
         Factory factory = null;
-        try {
-            factory = (Factory) Class.forName(classname).newInstance();
-        } catch (ClassNotFoundException e) {
-            System.err.println("没有找到 " + classname + "类!");
-            System.exit(-1);
-        } catch (Exception e) {
-            e.printStackTrace();
+        switch (classname) {
+            case "factory.ListFactory":
+                factory = new ListFactory();
+                break;
+            case "factory.TableFactory":
+                factory = new TableFactory();
+                break;
+            default:
+                System.err.println("没有找到 " + classname + "类!");
+                System.exit(-1);
         }
         return factory;
     }
